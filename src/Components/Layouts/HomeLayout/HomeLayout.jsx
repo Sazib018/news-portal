@@ -11,7 +11,7 @@ const HomeLayout = () => {
            <HomeTop></HomeTop>
            <TopNav></TopNav>
 
-           <div className='flex items-center justify-between gap-6'>
+           <div className='flex justify-between mt-16  gap-6'>
             <div className='w-[267px]'>
                 <HomeLeft></HomeLeft>
             </div>
