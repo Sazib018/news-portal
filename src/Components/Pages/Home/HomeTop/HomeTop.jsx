@@ -22,7 +22,7 @@ const HomeTop = () => {
             </div>
 
             <div className="flex flex-col md:flex-row items-center justify-between mt-6 px-4 md:px-8 py-4 gap-4 md:gap-0">
-                <div className="flex flex-col md:flex-row gap-4 md:gap-6 text-[#706F6F] text-sm md:text-lg lg:ml-[450px] font-medium">
+                <div className="flex  gap-4 md:gap-6 text-[#706F6F] text-sm md:text-lg lg:ml-[450px]  md:ml-auto font-medium">
                     <p>Home</p>
                     <p>About</p>
                     <p>Career</p>
@@ -31,7 +31,7 @@ const HomeTop = () => {
                     <img
                         className="w-8 md:w-10 h-8 md:h-10"
                         src="https://i.ibb.co/9nsZghD/user.png"/>
-                    <button className="bg-[#403F3F] text-white text-sm md:text-lg font-semibold px-6 md:px-10 py-2 rounded">Login
+                    <button className="bg-[#403F3F] text-white text-sm md:text-lg font-semibold px-6 md:px-10 py-2">Login
                     </button>
                 </div>
             </div>
