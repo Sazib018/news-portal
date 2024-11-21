@@ -19,6 +19,7 @@ const HomeRight = () => {
                 </div>
             </div>
 
+            {/* Find Us */}
             <div className='h-[190px] mt-8'>
                 <h3 className='text-[#403F3F] text-xl font-semibold'>Find Us On</h3>
 
@@ -27,7 +28,7 @@ const HomeRight = () => {
                         <img className='w-7 h-7' src="https://i.ibb.co.com/7JM7XpM/download.png" alt="" />
                         <p>Facebook</p>
                     </div>
-                    
+
                     <div className='flex gap-[10px] mt-5'>
                         <img className='w-7 h-7' src="https://i.ibb.co.com/N6dQBPQ/Twitter.png" alt="" />
                         <p>Twitter</p>
@@ -38,6 +39,29 @@ const HomeRight = () => {
                         <p>Instagram</p>
                     </div>
                 </div>
+            </div>
+
+            {/*  Q-Zone */}
+
+            <div className='mt-12 bg-[#F3F3F3] '>
+                <h2 className='text-[#403F3F] text-xl font-semibold p-4'>Q-Zone</h2>
+
+                <div className='px-3 py-4'>
+                    <img src="https://i.ibb.co.com/Y2rhqz8/qZone1.png" alt="" />
+                    <img src="https://i.ibb.co.com/F3524bC/qZone2.png" alt="" />
+                    <img src="https://i.ibb.co.com/fXsLDzq/qZone3.png" alt="" />
+                </div>
+            </div>
+
+            <div className='h-[500px] mt-7 flex justify-center items-center p-4 text-center ' style={{ backgroundImage: "url('https://i.ibb.co/8578mxb/bg.png')" }}>
+
+                <div className='space-y-6'>
+                    <h2 className='text-[#fff] text-3xl font-bold'>Create an Amazing Newspaper</h2>
+
+                    <p className='text-[#fff] font-normal'>Discover thousands of options, easy to customize layouts, one-click to import demo and much more.</p>
+                    <button className="bg-[#D72050] px-4 md:px-6 py-2 text-[#FFF] text-base md:text-xl font-medium">Learn More</button>
+                </div>
+
             </div>
         </>
     );
