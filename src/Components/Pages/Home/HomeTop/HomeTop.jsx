@@ -4,7 +4,7 @@ import Marquee from 'react-fast-marquee';
 
 const HomeTop = () => {
     return (
-        <div className="text-center mt-6 px-4">
+        <div className="text-center mt-6 px-4 font-poppins">
             <h1 className="text-4xl md:text-6xl text-[#444] font-normal"
                 style={{ fontFamily: "'Old English Text MT', serif" }}>
                 The Dragon News</h1>

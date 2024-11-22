@@ -3,7 +3,7 @@ import React from 'react';
 const HomeRight = () => {
     return (
         <>
-            <div className="flex items-center bg-gray-100">
+            <div className="flex items-center bg-gray-100 font-poppins">
                 <div className="bg-white p-6 rounded-lg shadow-md w-80">
                     <h2 className="text-lg font-bold text-gray-800 mb-4">Login With</h2>
                     <button className="flex items-center justify-center w-full px-4 py-2 text-sm font-medium text-gray-700 border border-gray-500 rounded-md  ">
